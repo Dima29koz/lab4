@@ -18,9 +18,9 @@ public class Task extends JFrame {
         JLabel lab1 = new JLabel();
         lab1.setText("Result: " + i + " + " + j);
         JLabel lab2 = new JLabel();
-        lab2.setText("Last Scorer: " + team);
+        lab2.setText("Last Scorer: ");
         JLabel lab3 = new JLabel();
-        lab3.setText("Winner: " + team);
+        lab3.setText("Winner: DRAW");
 
         JButton button1 = new JButton();
         button1.setName("button1");
